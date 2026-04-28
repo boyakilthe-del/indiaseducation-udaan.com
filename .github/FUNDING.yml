@@ -34,11 +34,7 @@
         <button class="bjp" onclick="support('BJP')">Support BJP</button>
     </div>
 
-    <div class="box center">
-        <h2>Politician</h2>
-        <p>Trying to balance education and job opportunities for youth
-    </
-        <p>Focus on education reforms and employment support.</p>
+    <div class="box center"><p>Focus on education reforms and employment support.</p>
         <button class="congress" onclick="support('Congress')">Support Congress</button>
     </div>
 

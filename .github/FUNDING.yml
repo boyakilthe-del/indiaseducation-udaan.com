@@ -1,0 +1,79 @@
+# These are supported funding model platforms
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Political Story</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .box {
+            width: 30%;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        
+    
+
+        .bjp { background-color: orange; }
+        .congress { background-color: lightgreen; }
+    </style>
+</head>
+
+<body>
+
+<h1>Education & Jobs Debate</h1>
+
+<div class="container">
+    
+    <div class="box">
+        <h2>BJP</h2>
+        <p>Focus on development, skills, and new opportunities.</p>
+        <button class="bjp" onclick="support('BJP')">Support BJP</button>
+    </div>
+
+    <div class="box center">
+        <h2>Politician</h2>
+        <p>Trying to balance education and job opportunities for youth
+    </
+        <p>Focus on education reforms and employment support.</p>
+        <button class="congress" onclick="support('Congress')">Support Congress</button>
+    </div>
+
+</div>
+
+<p id="result"></p>
+
+<script>
+function support(party) {
+    document.getElementById("result").innerHTML =
+        "You supported " + party + ". Now think about education and jobs!";
+}
+</script>
+
+</body>
+</html>github: # Replace with up to 4 GitHub Sponsors-enabled usernames e.g., [user1, user2]
+patreon: # Replace with a single Patreon username
+open_collective: # Replace with a single Open Collective username
+ko_fi: # Replace with a single Ko-fi username
+tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
+community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
+liberapay: # Replace with a single Liberapay username
+issuehunt: # Replace with a single IssueHunt username
+lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
+polar: # Replace with a single Polar username
+buy_me_a_coffee: # Replace with a single Buy Me a Coffee username
+thanks_dev: # Replace with a single thanks.dev username
+custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
